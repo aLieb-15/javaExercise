@@ -9,7 +9,7 @@ import java.util.Optional;
  * @author aLieb
  * @date 2023年12月20日 20:18
  */
-public class optionalTest {
+public class OptionalTest {
     public static void main(String[] args) {
         UserRepository userRepository = new UserRepository();
         Optional<User> userOptional = userRepository.findUserByName("aLi11eb");
